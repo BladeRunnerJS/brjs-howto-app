@@ -1,0 +1,15 @@
+.locale-demo-blade {
+  width: 250px;
+  font-family: helvetica;
+  padding: 20px;
+  text-align: center;
+}
+
+.locale-demo-blade h1,
+.locale-demo-blade .hello-world-message {
+  padding: 5px;
+}
+
+.locale-demo-blade .hello-world-message {
+  line-height: 22px;
+}

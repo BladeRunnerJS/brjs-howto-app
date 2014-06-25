@@ -1,0 +1,2 @@
+enforcedNamespaces: true
+requirePrefix: mylib

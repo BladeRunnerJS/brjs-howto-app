@@ -1,0 +1,14 @@
+.locale-demo-blade {
+  background-color: red;
+  color: white;
+}
+
+.locale-demo-blade h1 {
+  background-color: blue;
+  color: white;
+}
+
+.locale-demo-blade .hello-world-message {
+  background-color: white;
+  color: black;
+}

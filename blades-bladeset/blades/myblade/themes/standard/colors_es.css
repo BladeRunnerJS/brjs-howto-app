@@ -1,0 +1,12 @@
+/*.locale-demo-blade h1,
+.locale-demo-blade button,
+.locale-demo-blade div {
+  background-color: red;
+  color: white;
+}
+
+.locale-demo-blade p,
+.locale-demo-blade .hello-world-message {
+  background-color: yellow;
+  color: black;
+}*/
