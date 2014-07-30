@@ -4,5 +4,5 @@ var MybladeViewModel = require( 'demo/blades/myblade/MybladeViewModel' );
 
 MybladeViewModelTest.prototype.testSomething = function() {
   var model = new MybladeViewModel();
-  assertEquals( 'Hello World!', model.message() );
+  assertTrue( model.message().indexOf("The epoch date was ") === 0 );
 };
