@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<@base.tag@/>
 		<meta charset="UTF-8">
 
 		<title>My Application</title>
 
-		<@css.bundle theme="standard"@/>
-
 	</head>
 	<body>
-		<p>Successfully loaded the application</p>
 
-    <!-- dev-minifier can be set to "combined" for all JS content to be bundled with a single request -->
-		<@js.bundle dev-minifier="none" prod-minifier="combined"@/>
-		<script>
-			( function() {
+		<div class="app">
 
-				// Register application EventHub. Required until the following is fixed:
-				// https://github.com/BladeRunnerJS/brjs/issues/354
-				var ServiceRegistry = require( 'br/ServiceRegistry' );
-				var EventHub = require( 'br/EventHub' );
-				ServiceRegistry.registerService( 'br.event-hub', new EventHub() );
+			<h1>How-to Examples</h1>
+			<ul>
+				<li>
+					<a href="/brjs-howto-app/routes">Using Routes in a BRJS app</a>
+				</li>
+				<li>
+					<a href="/brjs-howto-app/blades/myblade/workbench/">Using i18n in your Blades</a>
+				</li>
+			</ul>
 
-				var App = require( 'demo/App' );
-				var app = new App();
+		</div>
 
-			} )();
-		</script>
 	</body>
 </html>
